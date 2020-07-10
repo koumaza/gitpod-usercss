@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name           gitpod-usercss
+@namespace      koumaza
+@version        1.0.0
+@homepageURL 		https://github.com/koumaza/gitpod-usercss.git
+@updateURL   		https://raw.githubusercontent.com/koumaza/gitpod-usercss/master/gitpod.user.css
+@license     		WTFPL(PublicDomain)
+@description    Gitpod usercss
+@author         koumaza
+==/UserStyle== */
+@-moz-document domain("gitpod.io") {
+	.theia-settings-container { max-width: 2000px!important; left: unset; width: unset; } }
